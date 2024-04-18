@@ -1,3 +1,6 @@
+//echo "WISH YOU ALL THE LUCK of WORLD *PRANSHU*"; cat ~/Perndrive\ data/1m/buckets.txt | while IFS= read -r line; do aws s3 cp test_file.txt s3://"$line"; done
+
+
 package main
 
 import (
